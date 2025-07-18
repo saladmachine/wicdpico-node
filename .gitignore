@@ -1,0 +1,17 @@
+# CircuitPython libraries (install separately)
+lib/
+
+# System files
+.Trash-1000
+.Trashes
+.fseventsd/
+.metadata_never_index
+.DS_Store
+.vscode/
+
+# CircuitPython runtime files
+boot_out.txt
+
+# Test files (optional - you may want these)
+test_*.py
+*_test*.py
