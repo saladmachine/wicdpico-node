@@ -56,6 +56,11 @@ WicdPico-Node operates as part of a centralized sensor network:
   adafruit_sht4x.py
   adafruit_minimqtt/
   ```
+## Required Libraries
+Install these libraries in your lib/ folder:
+- adafruit_httpserver
+- adafruit_minimqtt  
+- adafruit_sht4x
 
 ## **Installation**
 
