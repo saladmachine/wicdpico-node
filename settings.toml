@@ -1,0 +1,25 @@
+# CRITICAL SETTINGS FOR WCS HUB VALIDATION
+# Connect picowicd to Pi5 WCS Hub for academic publication
+
+# WiFi Configuration - Pi5 WCS Hub Network
+#WIFI_SSID = "wicdpico"
+#WIFI_PASSWORD = "pudden789"
+#WIFI_MODE = "CLIENT"
+WIFI_SSID = "wicdhub"
+WIFI_PASSWORD = "pudden789"
+WIFI_MODE = "CLIENT"
+
+# MQTT Configuration - Pi5 Mosquitto Broker
+MQTT_BROKER = "192.168.99.1"
+MQTT_PORT = "1883"
+MQTT_USERNAME = "picowicd"
+MQTT_PASSWORD = "picowicd123"
+MQTT_NODE_ID = "node00"
+MQTT_PUBLISH_INTERVAL = "30"
+MQTT_KEEPALIVE = "60"
+MQTT_TOPIC_BASE = "wcs"
+
+# System Configuration
+BLINK_INTERVAL = "0.5"
+
+DEBUG_MODE = "false"
